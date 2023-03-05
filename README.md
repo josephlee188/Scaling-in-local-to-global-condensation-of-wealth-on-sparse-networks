@@ -5,8 +5,7 @@ Video 1
 
 $10^1 < t < 10^4$
 
-![1e1](https://user-images.githubusercontent.com/73336039/222962268-60134667-4467-4fae-8e3c-508b0269d7a5.gif)
-
+![1e1(ver2)](https://user-images.githubusercontent.com/73336039/222962780-09d48f36-2c93-4184-89f4-752f862a84bf.gif)
 
 Video 2
 
