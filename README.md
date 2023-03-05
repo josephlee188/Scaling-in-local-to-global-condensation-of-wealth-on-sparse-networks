@@ -11,4 +11,4 @@ Video 2
 
 $10^5 < t < 10^6$
 
-![1e5](https://user-images.githubusercontent.com/73336039/222962562-1164a0e6-eba4-4e5f-8193-17effa319cd3.gif | width = 400)
+![1e5]("https://user-images.githubusercontent.com/73336039/222962562-1164a0e6-eba4-4e5f-8193-17effa319cd3.gif" width="300" height="300")
