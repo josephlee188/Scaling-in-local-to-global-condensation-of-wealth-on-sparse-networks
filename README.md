@@ -6,38 +6,50 @@ Generalized Yard-Sale (gYS) model is a wealth exchange model we introduced in ou
 ### Model
 $N$ individuals start with equal wealth ($w_i=1$). Upon simulation, we update the wealth via following rule: with probability $1-p$, a randomly picked link (say, the end nodes are $i$ and $j$) transfers $\epsilon \min(w_i,w_j)$ amount of wealth where $\epsilon \le 1$ is a constant, and with probability $p$, the link transfers $\epsilon w_i$ amount of wealth if the direction is $i \rightarrow j$. The tranfer direction is randomly chosen with equal probability. We do this update $N$ times during $t \rightarrow t+1$ in simulation time. 
 
-We show simulation results on highly sparse and heterogeneous [scale-free](https://en.wikipedia.org/wiki/Scale-free_network) network with $\gamma=2.5, \langle k \rangle=4$.
+We present simulation results on highly sparse and heterogeneous [scale-free](https://en.wikipedia.org/wiki/Scale-free_network) network with $\gamma=2.5, \langle k \rangle=4$.
 
 ## Results
 
 ### Emergence of local & global condensate
-Here, we plot each individual nodes' wealth $w_i$ and the wealth variance $\sigma^2$ of the total individuals ($N=97$). 
+Here, we plot individual nodes' wealth $w_i$ and the wealth variance $\sigma^2$ of the total individuals ($N=97, p=10^{-6}, \epsilon=0.05$). 
 
 <img align="center" width="500" alt="Figs_snap" src="https://user-images.githubusercontent.com/73336039/224218576-c6390ebb-98ba-4a54-9f8e-e28576851008.png">
+
+We note that the ***local condensate*** is characterized by almost completely frozen wealth of all nodes (video link below). It is followed by ***relaxation*** in which the frozen wealth dissolves and roam around in a random-walk-like manner across significantly longer time-scales. We show in [paper URL] that the time-scale for this transition $t_{relax}$ is proportional to $1/\epsilon p$. 
+
+As a consequence of these dynamic movements, and a characteristic property of the exchange model which is the coalescence of nearest neighbors' wealth onto a node, ***global condensate*** arises in which the total wealth is collected by a single monopolistic node.
+
+
+
+### Coalescing random-walk (CRW) dynamics of the rich nodes
+To elucidate the mechanism of the relaxation, 
+
+
+
 
 ### Initial growth ($10^1 < t < 10^4$)
 
 [Video link](https://drive.google.com/file/d/1wDLWEYJveX0tX26qWktbd9tYN1gWEwkS/view?usp=share_link) (Google Drive)
 
-<img src="https://user-images.githubusercontent.com/73336039/223454770-ea451211-e225-4506-82f0-6157ff966b3c.png" width="500" height="500" />
+<img src="https://user-images.githubusercontent.com/73336039/223454770-ea451211-e225-4506-82f0-6157ff966b3c.png" width="300" height="300" />
 
 
 ### Local condensate ($10^5 < t < 10^6$)
 
 [Video link](https://drive.google.com/file/d/12hHhMHN0Bl-iAV__TnQnWWO1TFTtF0ef/view?usp=share_link) (Google Drive)
 
-<img src="https://user-images.githubusercontent.com/73336039/223454798-75b65b77-4b13-40ae-becd-531accbec6a6.png" width="500" height="500" />
+<img src="https://user-images.githubusercontent.com/73336039/223454798-75b65b77-4b13-40ae-becd-531accbec6a6.png" width="300" height="300" />
 
 
 ### Relaxation ($10^7 < t < 10^8$)
 
 [Video link](https://drive.google.com/file/d/1-oZu167EcNQZnJlnaDbg2dm_PZQLSlCU/view?usp=share_link) (Google Drive)
 
-<img src="https://user-images.githubusercontent.com/73336039/223454819-97870ff5-b870-4f05-974c-9acb574ba8d3.png" width="500" height="500" />
+<img src="https://user-images.githubusercontent.com/73336039/223454819-97870ff5-b870-4f05-974c-9acb574ba8d3.png" width="300" height="300" />
 
 
 ### Global condensate ($10^8 < t < 10^9$)
 
 [Video link](https://drive.google.com/file/d/1jkMI_qgEmncgAqNV9xwKzFJ3OhkflxvZ/view?usp=share_link) (Google Drive)
 
-<img src="https://user-images.githubusercontent.com/73336039/223454848-c463f3d9-df5d-45e1-89ec-42cc9c689242.png" width="500" height="500" />
+<img src="https://user-images.githubusercontent.com/73336039/223454848-c463f3d9-df5d-45e1-89ec-42cc9c689242.png" width="300" height="300" />
