@@ -19,7 +19,13 @@ We note that the ***local condensate*** is characterized by almost completely fr
 
 As a consequence of these dynamic movements, and a characteristic property of the exchange model which is the coalescence of nearest neighbors' wealth onto a node, ***global condensate*** arises in which the total wealth is collected by a single monopolistic node.
 
+<br />
+ 
+&emsp;&emsp;&emsp;&emsp; **Coalescence** &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **Transfer**
 
+<img src="https://user-images.githubusercontent.com/73336039/224312265-6fe85e0a-4bee-4f37-bc9b-9cb0f1d98598.gif" width="500" />
+  
+<br />
 
 ### Coalescing random-walk (CRW) dynamics of the rich nodes
 To elucidate the mechanism of the relaxation, 
