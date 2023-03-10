@@ -8,6 +8,8 @@ $N$ individuals start with equal wealth ($w_i=1$). Upon simulation, we update th
 
 We present simulation results on highly sparse and heterogeneous [scale-free](https://en.wikipedia.org/wiki/Scale-free_network) network with $\gamma=2.5, \langle k \rangle=4$.
 
+
+
 ## Results
 
 ### Emergence of local & global condensate
@@ -15,9 +17,9 @@ Here, we plot individual nodes' wealth $w_i$ and the wealth variance $\sigma^2$ 
 
 <img align="center" width="500" alt="Figs_snap" src="https://user-images.githubusercontent.com/73336039/224218576-c6390ebb-98ba-4a54-9f8e-e28576851008.png">
 
-We note that the ***local condensate*** is characterized by almost completely frozen wealth of all nodes (video link below). It is followed by ***relaxation*** in which the frozen wealth dissolves and roam around in a random-walk-like manner across significantly longer time-scales. We show in [paper URL] that the time-scale for this transition $t_{relax}$ is proportional to $1/\epsilon p$. 
+We note that the ***local condensate*** is characterized by almost completely frozen wealth of all nodes (video link below). It is followed by ***relaxation*** in which the frozen wealth dissolves and roam around in a random-walk-like manner across significantly longer time-scales. This ***transfer*** of wealth is driven by the aforementioned exchange scheme which occurs with probability $p$, and the average time period for each jump is proportional to $1/\epsilon p$ as we elucidate in [paper URL].
 
-As a consequence of these dynamic movements, and a characteristic property of the exchange model which is the coalescence of nearest neighbors' wealth onto a node, ***global condensate*** arises in which the total wealth is collected by a single monopolistic node.
+As a consequence of the dynamic movement, and the coalescence of nearest neighbors' wealth, ***global condensate*** arises in which the total wealth is collected by a single monopolistic node.
 
 <br />
  
@@ -28,7 +30,11 @@ As a consequence of these dynamic movements, and a characteristic property of th
 <br />
 
 ### Coalescing random-walk (CRW) dynamics of the rich nodes
-To elucidate the mechanism of the relaxation, 
+This observation leads us to imagine a coalescing random-walk (CRW) on networks as an analogy. In this random-walk model, two collding nodes 
+
+
+
+
 
 
 
