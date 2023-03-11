@@ -19,24 +19,15 @@ Here, we plot individual nodes' wealth $w_i$ and the wealth variance $\sigma^2$ 
 
 We note that the ***local condensate*** is characterized by almost completely frozen wealth of all nodes (video link below). It is followed by ***relaxation*** in which the frozen wealth dissolves and roam around in a random-walk-like manner across significantly longer time-scales. This transfer of wealth is driven by the aforementioned exchange scheme which occurs with probability $p$, and the average time period for each jump is proportional to $1/\epsilon p$ as we elucidate in [paper URL].
 
-As a consequence of the dynamic movement, and the coalescence of nearest neighbors' wealth, ***global condensate*** arises in which the total wealth is collected by a single monopolistic node.
-
+As a consequence of the dynamic movement, and the coalescence of nearest neighbors' wealth, ***global condensate*** arises in which the total wealth is collected by a single monopolistic node. 
 <br />
  
 &emsp;&emsp;&emsp;&emsp; **Coalescence** &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **Transfer**
 
 <img src="https://user-images.githubusercontent.com/73336039/224312265-6fe85e0a-4bee-4f37-bc9b-9cb0f1d98598.gif" width="500" />
-  
-<br />
-
-### Coalescing random-walk (CRW) dynamics of the rich nodes
-This observation leads us to imagine a coalescing random-walk (CRW) on networks as an analogy. In this random-walk model, two collding nodes reduces to one decreasing the number of surviving nodes as time elapses.
 
 
-
-
-
-
+In these videos, wealth of an individual is respresented by the size of a node, the simulation time is displayed on top left, and the (average) amount of transferred wealth is visualized with an edge's brightness. 
 
 
 ### Initial growth ($10^1 < t < 10^4$)
@@ -65,3 +56,10 @@ This observation leads us to imagine a coalescing random-walk (CRW) on networks 
 [Video link](https://drive.google.com/file/d/1jkMI_qgEmncgAqNV9xwKzFJ3OhkflxvZ/view?usp=share_link) (Google Drive)
 
 <img src="https://user-images.githubusercontent.com/73336039/223454848-c463f3d9-df5d-45e1-89ec-42cc9c689242.png" width="300" height="300" />
+
+
+### Coalescing random-walk (CRW) dynamics of the rich nodes
+This observation leads us to imagine a coalescing random-walk (CRW) of the rich nodes ($\omega \ge 1$) on networks as an analogy. In this random-walk model, two collding nodes reduces to one decreasing the number of surviving nodes as time elapses.
+
+
+
