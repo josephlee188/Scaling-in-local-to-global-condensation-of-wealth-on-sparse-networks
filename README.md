@@ -1,7 +1,7 @@
 # Wealth-coalescence-on-complex-networks
 
 ## Introduction
-Generalized Yard-Sale (gYS) model is a wealth exchange model we introduced in our recent study which exhibits some very fascinating dynamics. We carefully delineate our observations in the paper [URL], while in here we aim to enhance visualization on what is really happening during the simulations. 
+Generalized Yard-Sale (gYS) model is a wealth exchange model we introduced in our recent study which exhibits some very fascinating dynamics. We carefully delineate our observations in the [paper (preprint)](https://drive.google.com/drive/folders/1D4a3GmQunhywOmxvjwcBDUK04TrAo7CG?usp=sharing), while in here we aim to enhance visualization on what is really happening during the simulations. 
 
 ### Model
 $N$ individuals start with equal wealth ($w_i=1$). Upon simulation, we update the wealth via following rule: with probability $1-p$, a randomly picked link (say, the end nodes are $i$ and $j$) transfers $\epsilon \min(w_i,w_j)$ amount of wealth where $\epsilon \le 1$ is a constant, and with probability $p$, the link transfers $\epsilon w_i$ amount of wealth if the direction is $i \rightarrow j$. The tranfer direction is randomly chosen with equal probability. We do this update $N$ times during $t \rightarrow t+1$ in simulation time. 
