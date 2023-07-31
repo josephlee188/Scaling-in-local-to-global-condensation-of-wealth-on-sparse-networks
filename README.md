@@ -1,7 +1,7 @@
 # Scaling in local to global condensation of wealth on sparse networks
 
 ## Introduction
-Generalized Yard-Sale (gYS) model is a wealth exchange model we introduced in our recent study which exhibits some very fascinating dynamics. We carefully delineate our observations in [paper URL], while in here we aim to enhance visualization on what is really happening during the simulations. 
+Generalized Yard-Sale (gYS) model is a wealth exchange model we introduced in our recent study which exhibits some very fascinating dynamics. We carefully delineate our observations in the [paper](https://arxiv.org/abs/2307.15513), while in here we aim to enhance visualization on what is really happening during the simulations. 
 
 ### Model
 $N$ individuals start with equal wealth ($w_i=1$). Upon simulation, we update the wealth via following rule: with probability $1-p$, a randomly picked link (say, the end nodes are $i$ and $j$) transfers $\varepsilon \min(w_i,w_j)$ amount of wealth where $\varepsilon \le 1$ is a constant, and with probability $p$, the link transfers $\varepsilon w_i$ amount of wealth if the direction is $i \rightarrow j$. The tranfer direction is randomly chosen with equal probability. We do this update $N$ times during $t \rightarrow t+1$ in simulation time. 
@@ -17,7 +17,7 @@ Here, we plot individual nodes' wealth $w_i$ and the wealth variance $\sigma^2$ 
 
 <img align="center" width="500" alt="Figs_snap" src="https://user-images.githubusercontent.com/73336039/224218576-c6390ebb-98ba-4a54-9f8e-e28576851008.png">
 
-We note that the ***local condensate*** is characterized by almost completely frozen wealth of all nodes (video link below). It is followed by ***relaxation*** in which the frozen wealth dissolves and roam around in a random-walk-like manner across significantly longer time-scales. This transfer of wealth is driven by the aforementioned exchange scheme which occurs with probability $p$, and the average time period for each jump is proportional to $1/\varepsilon p$ as we elucidate in [paper URL].
+We note that the ***local condensate*** is characterized by almost completely frozen wealth of all nodes (video link below). It is followed by ***relaxation*** in which the frozen wealth dissolves and roam around in a random-walk-like manner across significantly longer time-scales. This transfer of wealth is driven by the aforementioned exchange scheme which occurs with probability $p$, and the average time period for each jump is proportional to $1/\varepsilon p$ as we elucidate in the paper.
 
 As a consequence of the dynamic movement, and the coalescence of nearest neighbors' wealth, ***global condensate*** arises in which the total wealth is collected by a single monopolistic node. 
 <br />
